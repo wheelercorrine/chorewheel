@@ -1,0 +1,26 @@
+:root {
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  line-height: 1.5;
+  color: #1f3a40;
+  background: #f3efd6;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
